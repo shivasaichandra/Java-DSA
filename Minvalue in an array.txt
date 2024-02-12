@@ -1,0 +1,16 @@
+public class Searching {
+    public static void main(String[] args) {
+        int[] arr ={-1,-6,-564,34,45,76,0,78};
+        System.out.println(searchMin(arr));
+    }
+
+    static int searchMin(int[] arr){
+        int minvalue=arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if(arr[i]<minvalue){
+                minvalue=arr[i];
+            }
+        }
+        return minvalue;
+    }
+}
