@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class CapToSmall {
     public static void main(String[] args) {
         String str = "SHIVASAI";
